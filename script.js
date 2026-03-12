@@ -1,11 +1,11 @@
-const btnContainer = document.getElementById("allBtnContainer");
+const buttonContainer = document.getElementById("allBtnContainer");
 const openIssueContainer = document.getElementById("open-issues-container");
 const closedIssueContainer = document.getElementById("closed-issues-container");
 
 
 
 
-btnContainer.addEventListener("click", async (e) => {
+buttonContainer.addEventListener("click", async (e) => {
     if (e.target.localName !== "button") return;
 
     const buttons = document.querySelectorAll(".btn-nav");
