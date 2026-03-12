@@ -31,6 +31,9 @@ const square = x => x*x;
 
 5. Strings writen with backtics ``  
 Enbed variables or expressions ${}.
+let name = "Susmi";
+let text = `hello ${name};
+console.log(text);// Susmi
 
 
 
